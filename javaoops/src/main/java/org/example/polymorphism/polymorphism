@@ -1,0 +1,37 @@
+Calculator{
+
+METHOD OVERRIDING
+  addInteger(int a ,int b);
+  addDouble(double a , double b);
+  addFloat(float a , float b);
+  addString(String a,String b);
+
+
+METHOD OVERLOADING
+  add(int a,int b);
+  add(double a,double b);
+  add(float a, float b);
+  add(String a, String b);
+
+
+
+Types of polymorphism
+Overloading/Compile Time
+rules
+1.Method name should be same
+2.Types of parameters should be different
+3.Number of parameters should be different
+4.Order of parameters should be different
+5.Return type does not matter here
+
+
+
+
+Overriding/Run-time PolymorphismMethod
+1.Name Consistency: Overloaded methods must share the same name.
+2.Parameter Type Differentiation: Overloaded methods must have different parameter types.
+3.Parameter Number Variation: Overloaded methods can have a different number of parameters.
+4.Parameter Order Flexibility: Overloaded methods may have parameters arranged in different orders.
+5.Return Type Irrelevance: Overloading is not influenced by the return type; only the method signature matters.
+
+}
