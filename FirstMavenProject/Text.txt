@@ -1,0 +1,99 @@
+Pom.xml dependencies structures :-
+Group ID
+Artifact ID
+Version
+
+
+
+Structure of the Maven Project when we create the project as Maven in java
+
+
+When ever we can install the maven
+.m2 folder is automatically generated in the system
+path of the .m2 folder->c:/users/user_name/.m2
+
+In settings.xml we have to configure the things related to the local repository
+
+Maven Plugin is only run purpose
+jacoco
+Mkyong.com
+sonatype.com
+
+By default  <packaging>jar</packaging> in pom.xml
+
+
+1.Local Repository
+2.Restricted Repository
+3.Global Repository
+
+
+
+Restricted Repository
+ <repositories>
+        <repository>
+            <id>Dev</id>
+            <url>https://gfg-restricted-url.com</url>
+        </repository>
+ </repositories>
+
+
+
+Spring Framework
+
+The Spring Framework is an open-source Java platform that provides comprehensive infrastructure support for developing Java applications. It was initially developed by Rod Johnson in 2002 and has since become one of the most popular frameworks for building enterprise-level Java applications.
+
+Key Features:
+
+Inversion of Control (IoC): The core principle of the Spring Framework is IoC, which helps in achieving loose coupling between different components of an application. Instead of the application code controlling the flow of execution, IoC delegates control to the Spring container, which manages the lifecycle of application objects.
+
+Dependency Injection (DI): DI is a design pattern closely associated with IoC. Spring's DI container injects objects into other objects' dependencies, making it easier to manage dependencies and promoting reusability of code.
+
+Aspect-Oriented Programming (AOP): AOP is a programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns. Spring provides support for AOP, enabling developers to modularize cross-cutting concerns such as logging, security, and transactions.
+
+Spring MVC: Spring MVC is a web framework built on top of the Spring Framework that facilitates the development of web applications. It follows the MVC (Model-View-Controller) architectural pattern, making it easier to develop and manage web applications.
+
+Transaction Management: Spring provides a robust transaction management framework that supports both programmatic and declarative transaction management. It integrates seamlessly with various transaction management APIs such as JDBC, Hibernate, and JTA (Java Transaction API).
+
+Data Access: Spring simplifies database access through its data access abstraction layer, which provides support for JDBC, JPA (Java Persistence API), and other ORM (Object-Relational Mapping) frameworks such as Hibernate.
+
+Integration with other frameworks and technologies: Spring integrates seamlessly with other popular frameworks and technologies such as Hibernate, JPA, JMS (Java Message Service), JMX (Java Management Extensions), and many more.
+
+Testability: Spring promotes test-driven development by providing support for testing through its integration with popular testing frameworks like JUnit and TestNG. It also facilitates mocking and dependency injection in tests, making it easier to write and maintain test cases.
+
+Security: Spring Security is a powerful authentication and access control framework that provides comprehensive security features for Java applications, including authentication, authorization, session management, and more.
+
+Internationalization (i18n) and Localization (l10n): Spring provides support for internationalization and localization, allowing developers to create applications that can be easily adapted to different languages and regions.Spring Framework
+
+                                                                                                                                                                                                                                 The Spring Framework is an open-source Java platform that provides comprehensive infrastructure support for developing Java applications. It was initially developed by Rod Johnson in 2002 and has since become one of the most popular frameworks for building enterprise-level Java applications.
+
+                                                                                                                                                                                                                                 Key Features:
+
+                                                                                                                                                                                                                                 Inversion of Control (IoC): The core principle of the Spring Framework is IoC, which helps in achieving loose coupling between different components of an application. Instead of the application code controlling the flow of execution, IoC delegates control to the Spring container, which manages the lifecycle of application objects.
+
+                                                                                                                                                                                                                                 Dependency Injection (DI): DI is a design pattern closely associated with IoC. Spring's DI container injects objects into other objects' dependencies, making it easier to manage dependencies and promoting reusability of code.
+
+                                                                                                                                                                                                                                 Aspect-Oriented Programming (AOP): AOP is a programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns. Spring provides support for AOP, enabling developers to modularize cross-cutting concerns such as logging, security, and transactions.
+
+                                                                                                                                                                                                                                 Spring MVC: Spring MVC is a web framework built on top of the Spring Framework that facilitates the development of web applications. It follows the MVC (Model-View-Controller) architectural pattern, making it easier to develop and manage web applications.
+
+                                                                                                                                                                                                                                 Transaction Management: Spring provides a robust transaction management framework that supports both programmatic and declarative transaction management. It integrates seamlessly with various transaction management APIs such as JDBC, Hibernate, and JTA (Java Transaction API).
+
+                                                                                                                                                                                                                                 Data Access: Spring simplifies database access through its data access abstraction layer, which provides support for JDBC, JPA (Java Persistence API), and other ORM (Object-Relational Mapping) frameworks such as Hibernate.
+
+                                                                                                                                                                                                                                 Integration with other frameworks and technologies: Spring integrates seamlessly with other popular frameworks and technologies such as Hibernate, JPA, JMS (Java Message Service), JMX (Java Management Extensions), and many more.
+
+                                                                                                                                                                                                                                 Testability: Spring promotes test-driven development by providing support for testing through its integration with popular testing frameworks like JUnit and TestNG. It also facilitates mocking and dependency injection in tests, making it easier to write and maintain test cases.
+
+                                                                                                                                                                                                                                 Security: Spring Security is a powerful authentication and access control framework that provides comprehensive security features for Java applications, including authentication, authorization, session management, and more.
+
+                                                                                                                                                                                                                                 Internationalization (i18n) and Localization (l10n): Spring provides support for internationalization and localization, allowing developers to create applications that can be easily adapted to different languages and regions.
+
+
+
+
+
+
+
+
+
+

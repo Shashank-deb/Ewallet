@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+<!--    Parent Declaration in pom.xml file -->
+<!--    <parent>-->
+<!--        <artifactId></artifactId>-->
+<!--        <groupId></groupId>-->
+<!--    </parent>-->
+
+    <groupId>org.gfg</groupId>
+    <artifactId>FirstMavenProject</artifactId>
+    <version>1.0-SNAPSHOT</version>
+<!--    <packaging>jar</packaging>-->
+
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+<!--This is the Global Repository provided by Maven is available in Maven Repository Website-->
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.3.0</version>
+        </dependency>
+
+    </dependencies>
+
+<!--    This is the restricted repository of Maven Provided by particular companies -->
+    <repositories>
+        <repository>
+            <id>Dev</id>
+            <url>https://gfg-restricted-url.com</url>
+        </repository>
+    </repositories>
+
+</project>

@@ -1,0 +1,118 @@
+Client to Server->Google Applications
+Server to Server->Chatting Applications,Stock Chart Analysis Applications
+1.Someone will call our application
+2.Controller will be the one to recieve the call
+3.Controller will call service layer based on the input
+4.Service will act on the data,which includes CRUD
+5.Service will return the data to Controller
+6.Controller will return the data to the user
+
+
+
+API Working Steps
+1.Tech discussions,meetings etc.
+2.Business logic
+3.API design and documentation
+4.API contract->final ->SWAGGER UI
+5.API development
+6.API server
+7.Maintaience or update
+
+
+
+CRUD
+
+CREATE->Data
+READ-> Id
+UPDATE->Id+Data
+DELETE->Id
+
+
+
+/pet/create
+/pet/retrieve
+/pet/update
+/pet/delete
+
+
+
+Https types->API types
+
+
+1.GET->Retrieve
+2.POST->Create a new data
+3.PUT->Update the resource
+4.PATCH->partial update
+5.DELETE->delete the resource
+
+
+
+OPTIONS/HEAD/TRACES
+
+
+
+SOAP->SOAP API's
+
+
+Configuration XML of SOAP API
+<?xml version="1.0"?>
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2003/05/soap-envelope/"
+soap:encodingStyle="http://www.w3.org/2003/05/soap-encoding">
+
+<soap:Header>
+...
+</soap:Header>
+
+<soap:Body>
+...
+  <soap:Fault>
+  ...
+  </soap:Fault>
+</soap:Body>
+
+</soap:Envelope>
+
+
+
+REST->Representational State Transfer
+{
+"movie_name":"movie_name",
+"movie_rating":"movie_rating"
+}
+
+Idempotency  of particular apis
+
+SAFETY
+GET->
+GET is considered a safe method because it does not alter the state of the resource
+PUT->
+PUT is not a safe operation because it modifies the state of the resource
+POST->
+POST is not a safe operation because it results in a change of state on the server (creating a new resource)
+DELETE->
+DELETE is not a safe operation because it results in the removal of the resource
+
+
+
+
+LOG LEVELS
+TRACE->minutes details for extreme debugging
+DEBUG->detailed information needed while debugging
+INFO->Information of the process for hints
+WARN->Something can go wrong or may be crucial
+ERROR->Very crucial and important
+
+sout("iam called for greet")
+log.debug("iam called for greet")
+logger.error("here is the exception")
+
+By default it is info Logging in the Console of the spring boot applications
+
+
+
+
+
+
+
+
