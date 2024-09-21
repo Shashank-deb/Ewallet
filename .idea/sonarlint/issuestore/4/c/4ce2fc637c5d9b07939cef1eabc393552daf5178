@@ -1,0 +1,14 @@
+
+|	java:S125"<This block of commented-out lines of code should be removed.(ÁŠÿÒúÿÿÿÿJ$cfeeb5eb-4d2b-481c-a389-fc2339857ca1
+|	java:S125&"<This block of commented-out lines of code should be removed.(ŒÙÅÖıÿÿÿÿJ$34913481-e1ca-4bb6-ba92-0c72a881d65b
+„
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰ŞJ$1f78f736-66a2-4418-984c-306e3d55d86e
+‡
+java:S1128"KRemove this unused import 'org.springframework.context.annotation.Primary'.(“ğ›ßJ$a7ce91ca-7664-4ed4-9d9c-fd982a18b1ec
+l
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖJ$0e2b0781-6932-4201-836d-4a10114c6c35
+o
+java:S1128	"3Remove this unused import 'java.sql.DriverManager'.(“£°J$c52b7a95-056d-416f-80fc-ff6f537e51df
+n
+java:S1128
+"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸJ$d59f70aa-143e-46f1-9a7d-349a4e4949bf

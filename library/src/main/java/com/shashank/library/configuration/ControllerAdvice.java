@@ -32,8 +32,6 @@ public class ControllerAdvice {
         return new ResponseEntity<>(errorsMap, HttpStatus.BAD_REQUEST);
     }
 
-
-
     @ExceptionHandler(UserAlreadyExistsException.class)
     public ResponseEntity<?> handleUserAlreadyExistsException(UserAlreadyExistsException e){
         Map<String,String> errorsMap=new HashMap<>();

@@ -18,25 +18,21 @@ import java.util.Optional;
 @Service
 public class UserDetailServiceImpl implements  UserService {
 
-
-    @Autowired
-    UserRepository  userRepository;
-
-
-    @Autowired
-    PasswordEncoder passwordEncoder;
-
-
-    public void setUserRepository(UserRepository userRepository){
-        this.userRepository=userRepository;
-    }
-
     /**
      * Create the userRepository
      * Autowire here
      * fetch user data from the repository.
      * */
 
+    @Autowired
+    UserRepository userRepository;
+
+    @Autowired
+    PasswordEncoder passwordEncoder;
+
+    public void setUserRepository(UserRepository userRepository){
+        this.userRepository=userRepository;
+    }
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
@@ -48,8 +44,8 @@ public class UserDetailServiceImpl implements  UserService {
             throw  new UsernameNotFoundException("User not found");
         }
 
+        //return optionalUser.orElseThrow(()->new UsernameNotFoundException("User not found"));
     }
-
 
     @Override
     public void addUser(User user) {
@@ -61,5 +57,6 @@ public class UserDetailServiceImpl implements  UserService {
         }else {
             throw new UserAlreadyExistsException("User already exists");
         }
+
     }
 }

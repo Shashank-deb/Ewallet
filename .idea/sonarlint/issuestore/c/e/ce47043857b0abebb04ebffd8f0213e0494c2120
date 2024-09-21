@@ -1,0 +1,22 @@
+
+~
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$f0c966b0-4a42-481f-8446-8fd6e46944bc
+~
+java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞJ$5cc38dd3-bc4d-42be-b9b3-43dea59a1a78
+w	java:S125"<This block of commented-out lines of code should be removed.(¥•ÖÏJ$819a2af1-f7aa-49f2-8d07-86531bec1d99
+w	java:S125&"<This block of commented-out lines of code should be removed.(ö²¿ÓJ$718e510d-c3e4-48fa-94eb-fc522fc870b0
+w	java:S125/"<This block of commented-out lines of code should be removed.(æ£¾ÊJ$6528369a-642a-4ecc-a3e2-c1086f936ed6
+|	java:S125J"<This block of commented-out lines of code should be removed.(ş¦ëúÿÿÿÿJ$6d635414-9cb5-43d3-af22-18f3c655abaa
+|	java:S125N"<This block of commented-out lines of code should be removed.(‹Ô·şÿÿÿÿJ$bc62a036-d9e4-443b-9e66-89e9067f3725
+|	java:S125P"<This block of commented-out lines of code should be removed.(ğÏÄ–úÿÿÿÿJ$2f94bd95-324c-42c0-b4fe-69eb0eba2645
+w	java:S125T"<This block of commented-out lines of code should be removed.(§ç‡ÒJ$642ffeef-2455-4c59-b2b4-65e372012069
+~
+java:S1128"=Remove this unused import 'com.shashank.library.domain.Book'.(ÓßšúûÿÿÿÿJ$80137d54-3a0b-448b-a819-c089a9cb136c
+
+java:S1128">Remove this unused import 'com.shashank.library.domain.Genre'.(í¨ƒãıÿÿÿÿJ$15580a6c-0bd7-411b-86a2-520bc24d32cd
+{
+java:S1128"?Remove this unused import 'com.shashank.library.domain.Review'.(Î íJ$875ed5ff-f9b3-4020-af4f-8f24919a220e
+•
+java:S1128"TRemove this unused import 'com.shashank.library.service.impl.BookCascadeSampleImpl'.(ã’·ÿÿÿÿÿJ$b51a1661-e4c4-41e3-ba96-8ef6a34f6efd
+
+java:S1128"NRemove this unused import 'org.springframework.data.redis.core.RedisTemplate'.(–ª¡ÇøÿÿÿÿJ$9c69d7e1-8019-4eba-a7a1-f2d77c6c1e0d

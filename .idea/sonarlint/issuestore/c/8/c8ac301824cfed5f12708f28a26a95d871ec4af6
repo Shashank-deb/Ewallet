@@ -1,0 +1,10 @@
+
+‹
+java:S1488S"pImmediately return this expression instead of assigning it to the temporary variable "lettuceConnectionFactory".(© …Üùÿÿÿÿ
+V	java:S125\"<This block of commented-out lines of code should be removed.(àêÜÑúÿÿÿÿ
+V	java:S125e"<This block of commented-out lines of code should be removed.(þ°ª…ûÿÿÿÿ
+l
+java:S1128	"VRemove this unused import 'org.springframework.data.redis.serializer.RedisSerializer'.(èÈ„­
+s
+java:S1128
+"]Remove this unused import 'org.springframework.data.redis.serializer.SerializationException'.(äúŸß

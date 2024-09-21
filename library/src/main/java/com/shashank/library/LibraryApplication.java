@@ -12,10 +12,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.data.redis.core.RedisTemplate;
 
-import java.util.ArrayList;
-import java.util.List;
+//import java.util.ArrayList;
+//import java.util.List;
 
-
+//2:40:46  of the OAuth2 and Github Integration
+//39:48  apache kafka working 
 @SpringBootApplication
 public class LibraryApplication implements CommandLineRunner {
 
